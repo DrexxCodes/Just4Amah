@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
   <link rel="stylesheet" href="XML.css">
     <title>Reference Key Generator</title>
     <style>
@@ -25,7 +26,7 @@
         <button class="btn-22" onclick="submitData()">Submit🥷</button>
         <p id="message"></p>
     </div>
-
+  <a href="https://drexxcodes.github.io/XMLServer">CGECJ</a>
     <div class="container">
       <h2>Query Database</h2>
        <label for="retrieveRefCode">Enter Reference Code</label>
@@ -33,7 +34,6 @@
         <div class="input-group2">
             <input type="text" id="retrieveRefCode" required>
            <button class="generate-btn" onclick="lookupApp()">Query</button>
-        
         </div>
        <div class="input-group" id="retrievedAppGroup" style="display:none;">
             <label for="retrievedAppName">App Name</label>
@@ -42,7 +42,6 @@
     </div>
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
-
 <script src="server.js"></script>
 </body>
 </html>
